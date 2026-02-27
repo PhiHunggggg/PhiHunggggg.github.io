@@ -6,8 +6,9 @@ function changeButton() {
     noButton.style.transition = "left 0.5s, top 0.5s";
 }
 function openGame() {
-    window.open("../html/snake.htm", "_blank");
+    window.open("./TrainingJS/html/snake.htm", "_blank");
 }
 function openGame1() {
-    window.open("../html/Racing.htm", "_blank");
+    window.open("./TrainingJS/html/Racing.htm", "_blank");
+
 }
