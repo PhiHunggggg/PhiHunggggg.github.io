@@ -1,0 +1,13 @@
+function changeButton() {
+    const noButton = document.getElementById("noButton");
+    noButton.style.position = "absolute";
+    noButton.style.left = Math.random() * (window.innerWidth - noButton.offsetWidth) + "px";
+    noButton.style.top = Math.random() * (window.innerHeight - noButton.offsetHeight) + "px";
+    noButton.style.transition = "left 0.5s, top 0.5s";
+}
+function openGame() {
+    window.open("../html/snake.htm", "_blank");
+}
+function openGame1() {
+    window.open("../html/Racing.htm", "_blank");
+}

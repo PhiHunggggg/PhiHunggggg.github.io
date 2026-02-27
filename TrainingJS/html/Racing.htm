@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Racingg!!!</title>
+        <link rel="stylesheet" href="../css/racing.css">
+        <link rel="icon" href="../pic/icons8-car-64 (1).png">
+    </head>
+    <body>
+        <div class="gameCanvas">
+            <canvas id="gameCanvas" ></canvas>
+            <div id="score">
+                <p id="scoreLabel">Score:</p><span id="scoreValue">0</span>
+            </div>
+            <div id="Rule">
+                <p style="font-size: 20px;">Use arrow keys to control the car. </p>
+                <button id="startButton" onclick="beginGame()">Start Game</button>
+            </div>
+        </div>
+        <script src="../javascript/racing.js"></script>
+    </body>

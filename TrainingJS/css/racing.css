@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+#gameCanvas{
+    background-color: gray;
+    border: 3px black solid;
+}
+.gameCanvas{
+    position: relative;
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#score{
+    position: absolute;
+    bottom: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#scoreLabel{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 0px;
+}
+#scoreValue{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 40px;
+    align-items: center;
+}
+#Rule{
+    position: absolute;
+    top: 20%;
+}
