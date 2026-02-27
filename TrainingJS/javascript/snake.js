@@ -1,4 +1,5 @@
-let size =20;
+let size = 20;
+let gameInterval;
 document.getElementById("gameCanvas").width=size*20;
 document.getElementById("gameCanvas").height=size*20;
 let snake = [{x: 10, y: 10}];
@@ -6,7 +7,6 @@ let food = {x: 15, y: 15};
 let direction = {x: 0, y: 0};
 let score = 0;
 let defaultSpeed = 200; // Initial speed in milliseconds
-
 function gameLoop() {
     const head = {x: snake[0].x + direction.x, y: snake[0].y + direction.y};
     snake.unshift(head);
@@ -97,5 +97,4 @@ document.addEventListener("keydown", event => {
     }
 });
 
-setInterval(gameLoop, defaultSpeed);
-
+startGame();
