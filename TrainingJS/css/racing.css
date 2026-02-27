@@ -16,7 +16,7 @@ body{
 }
 #score{
     position: absolute;
-    bottom: 20vh;
+    bottom: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,3 +37,4 @@ body{
     top: 15vh;
 
 }
+
