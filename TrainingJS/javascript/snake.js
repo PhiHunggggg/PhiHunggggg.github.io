@@ -19,8 +19,8 @@ function gameLoop() {
         }else{
         defaultSpeed *= 0.9; // Increase speed by reducing the interval
         }
-        resetGame(); // Restart the game loop with the new speed
         document.getElementById("scoreValue").textContent = score;
+        resetGame(); 
     } else {
         snake.pop();
     }
@@ -98,4 +98,5 @@ document.addEventListener("keydown", event => {
 });
 
 setInterval(gameLoop, defaultSpeed);
+
 
